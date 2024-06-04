@@ -5,3 +5,27 @@
     text-decoration: none;
     
 }
+
+nav {
+    background: black;
+
+
+}
+nav a {
+    color: aliceblue;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background: black;
+    padding: 10px 20px;
+    display: block;
+}
+
+nav :hover {
+    background: rgba(255, 252, 252, 0.1);
+}
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
